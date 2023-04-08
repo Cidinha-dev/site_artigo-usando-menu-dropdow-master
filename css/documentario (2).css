@@ -1,0 +1,318 @@
+html{
+    font-size: 62.5%;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1.9rem;
+
+}
+
+/* cabeçalho */
+.header_top{
+    margin:0;
+    height: 50rem;
+    width: 100%;
+    background-image: url(https://cdn.pixabay.com/photo/2014/12/29/08/35/paper-582612_960_720.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.top_title1{
+    padding-top: 8%;
+    margin-bottom: 1%;
+    text-transform: uppercase;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:500%;
+    color: rgb(103, 2, 2);
+    text-shadow: 4px 6px 8px rgb(0, 0, 0);
+}
+.top_title2{
+    text-align: center;
+    padding: 3%;
+    font-family: cursive;
+    font-size: 3rem;
+ }
+
+
+    /* navegação que gruda no topo*/
+.nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position:sticky;
+    width: 100%;
+    top: 0;
+  }
+  
+.li_nav {
+    float: left;
+    list-style: none;
+  
+  }
+  
+.navbar a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.navbar a:hover {
+    background-color: rgb(103, 2, 2);
+  }
+  
+.active {
+    background-color:rgb(103, 2, 2);
+    color: white;
+}
+
+
+    /* artigos principail */
+.main{
+    margin:1% ;
+    margin-top: 10rem;
+    width: 65%;
+    padding: 1%;
+    display: flex;
+    float: left;
+
+}
+
+    /* imagens do card principal */
+.img_main1{
+    display: flex;
+    float: left;
+    background-image: url(https://cdn.pixabay.com/photo/2015/06/24/13/32/killer-820017__340.jpg);
+    height: 30rem;
+    width: 30rem;
+    background-size:cover ;
+    background-position: center;
+    margin:2% ;
+    box-shadow: 5px 5px 10px  rgb(0, 0, 0);
+
+}
+.img_main2{
+    display: flex;
+    float: left;
+    background-image: url(https://cdn.pixabay.com/photo/2014/02/08/16/12/glass-262105__340.jpg);
+    height: 30rem;
+    width: 30rem;
+    background-size:cover ;
+    background-position: center;
+    margin-right: 2rem;
+    margin-bottom:2rem ;
+    box-shadow: 5px 5px 10px  rgb(0, 0, 0);
+
+}
+.img_main3{
+    display: flex;
+    float: left;
+    background-image: url(https://cdn.pixabay.com/photo/2018/01/02/20/49/people-3057034__340.jpg);
+    height: 30rem;
+    width: 30rem;
+    background-size:cover ;
+    background-position: center;
+    margin-right: 2rem;
+    margin-bottom:2rem ;
+    box-shadow: 5px 5px 10px  rgb(0, 0, 0);
+
+}
+.img_main4{
+    display: flex;
+    float: left;
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/20/22/27/landscape-1756753__340.jpg);
+    height: 30rem;
+    width: 30rem;
+    background-size:cover ;
+    background-position: center;
+    margin-right: 2rem;
+    margin-bottom:2rem ;
+    box-shadow: 5px 5px 10px  rgb(0, 0, 0);
+}
+    /* contendo do card principal */
+.article{
+    display: flex;
+    height: 40rem;
+    width: 90%;
+    padding: 5%;
+    margin: 5%;
+   
+}
+.card{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    margin:0% 1% 1% 2%;
+    padding: 2%;
+}
+
+    /* texto do card */
+.link_card{
+    text-align: start;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000000;
+    font-family:cursive;
+    text-shadow: 0px 3px 3px rgb(50, 50, 50);
+}
+.date{
+    margin-bottom: 8%;
+    margin-top: 5%;
+    text-align: start;
+    font-style: italic;
+}
+.card_content{
+    padding: 1%;
+    margin: 1%;
+    text-align:start;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+
+    /* titulo lateral */
+.title_side1{
+    color: #fff;
+    text-align: center;
+    font-size: 200%;
+    text-transform: uppercase;
+    text-shadow: 8px 9px 10px rgb(0, 0, 0);
+    background-color: #333;
+}
+
+    /* conteudo do card lateral */
+.side_content{
+    margin-top: 3%;
+    text-align: center;
+    font-size: 10%;
+    text-decoration: none;
+    text-transform: uppercase;
+     color: #000000;
+    font-family:cursive;
+    padding: 3%;
+}
+
+.side_section{
+    width: 100%;    
+}
+
+.side{
+    margin: 1%;
+    margin-top: 10rem;
+    width: 30%;
+    padding: 1%;
+    display: flex;
+    float: right;
+
+}
+.aside{
+    margin-top: 12%;
+    display: block;
+    width: 100%;
+    padding: 2%;
+}
+.side_article{
+    border-style:outset;
+    margin: 2%;
+    padding: 1%;
+    text-align: center;
+    cursor: pointer;
+}
+.side_card{
+    text-decoration: none;
+    padding: 2%;
+    color: rgb(0, 0, 0);
+    font-size: 10%;
+    margin: 2%;
+    padding: 2%;
+    width: 95%;
+}
+.side_header{
+    margin: 5%;
+    padding: 3%;
+
+}
+
+    /* imagem do conteudo lateral */
+.img_aside1{
+    display: flex;
+    float: left;
+    margin: 3%;
+    background-image: url(https://cdn.pixabay.com/photo/2018/03/10/21/53/horror-3215406__340.jpg);
+    width: 15rem;
+    height: 12rem;
+    background-size: cover;
+    box-shadow: 5px 5px 10px  rgb(0, 0, 0);
+}
+.img_aside2{
+    display: flex;
+    float: left;
+    margin: 3%;
+    background-image: url(https://cdn.pixabay.com/photo/2015/03/20/00/36/cemetery-681604__340.jpg);
+    width: 15rem;
+    height: 12rem;
+    background-size: cover;
+    box-shadow: 5px 5px 10px  rgb(0, 0, 0);
+}
+.img_aside3{
+    display: flex;
+    float: left;
+    margin: 3%;
+    background-image: url(https://cdn.pixabay.com/photo/2013/11/05/01/19/crash-205525__340.jpg);
+    width:  15rem;
+    height: 12rem;
+    background-size: cover;
+    box-shadow: 5px 5px 10px  rgb(0, 0, 0);
+}
+.img_aside4{
+    display: flex;
+    float: left;
+    margin: 3%;
+    background-image: url(https://cdn.pixabay.com/photo/2017/06/20/15/51/poland-2423537__340.jpg);
+    width:  15rem;
+    height: 12rem;
+    background-size: cover;
+    box-shadow: 5px 5px 10px  rgb(0, 0, 0);
+}
+
+    /* lista de temas lateral */
+.list_temas, .list_temas a{ 
+    text-align: center;
+    list-style-type:none;
+    text-decoration: none ;
+    color: #000000;
+    margin: 2%;
+}
+
+.temas{
+    border-style: outset;
+    color: #000000;
+    margin:2% ;
+    margin-top: 30%;
+}
+
+    /* rodapé  */
+.footer_ad{
+    text-align: center;
+    border: #000000;
+}
+#name_footer{
+    text-align:center;
+    width: 100%;
+    color: #fff;
+    text-shadow: 8px 9px 10px rgb(0, 0, 0);
+}
+.foot{ 
+    display:flex;
+    background-color: #333;
+    width: 100%;
+    padding: 3%;
+    margin-bottom: 0;
+}
+

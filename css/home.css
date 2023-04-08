@@ -1,0 +1,442 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: cursive;
+}
+
+
+  /* cabaçalho */
+#top{
+  padding: 10%;
+  width: 100%;
+  height: 100%;
+  border: 0.1rem solid black;
+  background-image: url(https://cdn.pixabay.com/photo/2014/12/29/08/35/paper-582612_960_720.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.title_top{
+  text-align: center;
+  font-size: 100%;
+  color: black;
+}
+.title_top
+#top:hover{
+  font-style: oblique;
+  color: rgb(103, 2, 2);
+  background-image: url(https://cdn.pixabay.com/photo/2014/11/26/22/49/forest-547004_960_720.jpg);
+  background-size:cover ;
+  background-position: center;
+}
+
+
+  /* barra de navegação */
+.navbar{
+  margin-bottom: 2rem;
+  display: flex;
+  position: sticky;
+  width: 100%;
+  top: 0%;
+  justify-content: center;
+  background-color: #333;
+  border-bottom: 0.1em solid black;
+}
+.navbar a{
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 20px;
+}
+.navbar a:hover{
+  border: 0.1rem solid black;
+  background-color:rgb(103, 2, 2);
+  font-style:italic;
+}
+.active {
+  border: 0.1rem solid black;
+  background-color:rgb(103, 2, 2);
+  color: white;
+}
+
+
+  /* barra de navegação oculta */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 5%;
+  color: white;
+  border: 0.2em solid rgb(103, 2, 2);
+  background-color: black;  
+}
+.dropdown:hover {
+  background-color:rgb(103, 2, 2);
+  color: white;  
+  text-decoration: none;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  border: 0.2em solid rgb(103, 2, 2);
+  min-width: 200px;
+  box-shadow: 0px 10px 15px 10px rgba(0,0,0,0.5);
+  padding: 10px 15px;
+}
+.dropdown-content a{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  
+}
+.dropdown-content a:hover{
+  font-style: oblique;
+  font-weight: bold;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: white;
+  padding: 15px 20px;
+}
+
+/* conteudo principal */
+.container{
+  display: flex;
+  width: 100%;
+
+}
+.main{
+  margin: 5%;
+  width: 60%;
+}
+h2{
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  background-color: #333;
+  box-shadow: 5px 5px 10px  rgb(0, 0, 0);
+}
+.card_article{
+  width: 100%;
+  height: auto;
+}
+.link_card{
+  padding: 2%;
+  color: black;
+  text-decoration: none;
+}
+.article:hover{
+  background-color: #eee;
+  font-style: oblique;
+}
+.img_card_1{
+  margin-right: 2%;
+  width: 20rem;
+  height: 15rem;
+  float: left;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://cdn.pixabay.com/photo/2015/06/24/13/32/killer-820017__340.jpg);
+  border: 1px solid black;
+}
+.img_card_2{
+  margin-right: 2%;
+  width: 20rem;
+  height: 15rem;
+  float: left;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://cdn.pixabay.com/photo/2014/02/08/16/12/glass-262105__340.jpg);
+  border: 1px solid black;
+}
+.img_card_3{
+  margin-right: 2%;
+  width: 20rem;
+  height: 15rem;
+  float: left;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://cdn.pixabay.com/photo/2018/01/02/20/49/people-3057034__340.jpg);
+  border: 1px solid black;
+}
+.img_card_4{
+  margin-right: 2%;
+  width: 20rem;
+  height: 15rem;
+  float: left;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://cdn.pixabay.com/photo/2016/10/20/22/27/landscape-1756753__340.jpg);
+  border: 1px solid black;
+}
+.img_card_5{
+  margin-right: 2%;
+  width: 20rem;
+  height: 15rem;
+  float: left;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://cdn.pixabay.com/photo/2017/03/30/04/14/house-2187170_960_720.jpg);
+  border: 1px solid black;
+}
+h3{
+  display: inline;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.date{
+  padding: 3%;
+  font-size:small;
+}
+.article{
+ margin-top: 5%;
+ box-shadow: 5px 5px 10px  rgb(0, 0, 0);
+}
+
+
+/* conteudo lateral */
+.container_side{
+  margin: 5% 5% 5% 0%;
+  width: 25%;
+  height:50rem ;
+}
+
+.side{
+  margin-top: 10%;
+  width: 100%;
+  height: 8rem;
+  box-shadow: 5px 5px 10px  rgb(0, 0, 0);
+}
+.side:hover{
+  background-color: #eee;
+  font-style: oblique;
+}
+.link_side{
+  text-decoration: none;
+  color: black;
+}
+h4{
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.img_side_1{
+  margin-right: 2%;
+  width: 10rem;
+  height: 8rem;
+  float: left;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://cdn.pixabay.com/photo/2018/03/10/21/53/horror-3215406__340.jpg);
+  border: 1px solid black;
+}
+.img_side_2{
+  margin-right: 2%;
+  width: 10rem;
+  height: 8rem;
+  float: left;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://cdn.pixabay.com/photo/2015/03/20/00/36/cemetery-681604__340.jpg);
+  border: 1px solid black;
+}
+.img_side_3{
+  margin-right: 2%;
+  width: 10rem;
+  height: 8rem;
+  float: left;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://cdn.pixabay.com/photo/2013/11/05/01/19/crash-205525__340.jpg);
+  border: 1px solid black;
+}
+.img_side_4{
+  margin-right: 2%;
+  width: 10rem;
+  height: 8rem;
+  float: left;
+  background-size: cover;
+  background-position: center;
+  background-image: url(https://cdn.pixabay.com/photo/2017/06/20/15/51/poland-2423537__340.jpg);
+  border: 1px solid black;
+}
+/* lista de temas lateral */
+.list_temas, .list_temas a{ 
+  text-align: center;
+  list-style-type:none;
+  text-decoration: none ;
+  color: #000000;
+  margin: 2%;
+}
+  
+.temas{
+  border-style: outset;
+  color: #000000;
+  margin:2% ;
+  margin-top: 2rem;
+}
+.temas a:hover{
+  font-style: oblique;
+}
+
+
+
+/* rodapé */
+footer{
+  margin-top: 5rem;
+  text-align: center;
+  padding: 5%;
+  color: white;
+  background-color: #333;
+  border: 0.2em solid black;
+}
+
+
+
+
+@media only screen and (max-width: 300px){
+  .container_side{
+    height: 600rem;
+  }
+  footer{
+    margin-bottom: 0%;
+    margin-top: 15rem;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navbar a{
+    display: none;
+  }
+  .container{
+    width: 90%;
+    height: 236rem;
+    margin: 0%;
+  }
+  .article_container , .title{
+    width: 100%;
+  } 
+  .main{
+    margin: 94%;
+  }
+  .article{
+    text-align: center;
+  }
+  .section_side{
+    width: 100%;
+    height: 68rem;
+  }
+  .temas{
+    float: right;
+    margin: 0% 0% 2% 5%;
+    width: 100%;
+    height: 35rem;
+    box-shadow: 5px 5px 10px  rgb(0, 0, 0);
+  }
+
+  .side{
+    width: 100%;
+    margin-bottom: 7rem;
+    text-align: center;
+    box-shadow: none;
+  }
+  .img_side_1{
+    width: 100%;
+    margin: 0;
+  }
+  .img_side_2{
+    width: 100%;
+    margin: 0;
+  }
+  .img_side_3{
+    width: 100%;
+    margin: 0;
+  }
+  .img_side_4{
+    width: 100%;
+    margin: 0;
+  }
+  .content_side{
+    width: 100%;
+    box-shadow: 5px 5px 10px  rgb(0, 0, 0);;
+  }
+  h2{
+    font-size: 1rem;
+  }
+
+}
+
+@media only screen and (min-width: 600px){
+  .dropdown{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1123px){
+  .container_side{
+    width: 30%;
+    height:50rem ;
+  }
+
+  .main{
+    margin: 3%;
+    width: 58%;
+  }
+  .link_card{
+    padding: 1%;
+
+  }
+  h3{
+    display: inline;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+
+}
+@media only screen and (max-width: 950px){
+  .img_card_1{
+    width: 100%;
+  }
+  .img_card_2{
+    width: 100%;
+  }
+  .img_card_3{
+    width: 100%;
+  }
+  .img_card_4{
+    width: 100%;
+  }
+  .img_card_5{
+    width: 100%;
+  }
+  .main{
+    margin: 3%;
+    width: 55%;
+  }
+  .container_side{
+    width: 38%;
+    margin-right: 0%;
+  }
+
+}
+@media only screen and (max-width: 750px){
+  .container{
+    display: block;
+    margin: 5%;
+  }
+  .main{
+    width: 90%;
+  }
+  .container_side{
+    width: 100%;
+    display: flex;
+  }
+  .section_side{
+    width: 50%;
+    float: left;
+  }
+  .temas{
+    width: 18rem;
+    margin-top: 0%;
+    height:33rem;
+  }
+}
